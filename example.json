@@ -1,0 +1,78 @@
+[
+   [
+      {
+         "org_name": "Pet Safe Zone",
+         "accountable_name": "John Doe",
+         "email": "john.doe@example.com",
+         "password": "iwillnotdoanythingofgood",
+         "whatsapp": "1122334455",
+         "zip_code": "04651-130",
+         "state": "SP",
+         "city": "São Paulo",
+         "neighborhood": "Vila Sao Paulo",
+         "street": "Rua Másculo, 0",
+         "latitude": -23.658687,
+         "longitude": -46.6713071
+      },
+      {
+         "org_name": "Pet Safe Zone 2",
+         "accountable_name": "Jorge Doe",
+         "email": "jorge.doe@example.com",
+         "password": "iwillnotdoanythingofgood",
+         "whatsapp": "3222334455",
+         "zip_code": "36010-570",
+         "state": "MG",
+         "city": "Juiz de Fora",
+         "neighborhood": "Centro",
+         "street": "Rua Delfim Moreira, 10",
+         "latitude": -21.7697721,
+         "longitude": -43.3471987
+      },
+      {
+         "org_name": "Pet Portal",
+         "accountable_name": "Jane Doe",
+         "email": "jane.doe@example.com",
+         "password": "iwillnotdoanythingofgood",
+         "whatsapp": "4122334455",
+         "zip_code": "82720-220",
+         "state": "PR",
+         "city": "Curitiba",
+         "neighborhood": "Santa Cândida",
+         "street": "R. Hildo da Paz, 1214",
+         "latitude": -25.3670679,
+         "longitude": -49.2362918
+      }
+   ],
+   [
+      {
+         "name": "Buddy",
+         "about": "A really nice boy",
+         "age": 3,
+         "energy_level": 10,
+         "space_required": "wide",
+         "size": "big",
+         "independency": "low",
+         "org_id": "81a6c3e8-ec6a-42fa-840a-df17484cc1cd"
+      },
+      {
+         "name": "Lassie",
+         "about": "A really nice girl",
+         "age": 2,
+         "energy_level": 8,
+         "space_required": "medium",
+         "size": "small",
+         "independency": "low",
+         "org_id": "c533bf6d-e82f-410f-94cb-e9004de55154"
+      },
+      {
+         "name": "Rufus",
+         "about": "A really nice boy",
+         "age": 13,
+         "energy_level": 4,
+         "space_required": "medium",
+         "size": "medium",
+         "independency": "high",
+         "org_id": "e75ee588-fbd9-4559-8b60-9c6cb849af5e"
+      }
+   ]
+]
