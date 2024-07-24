@@ -1,6 +1,7 @@
 import { Org, Prisma } from '@prisma/client';
 import { OrgsRepository } from '../orgs-repository';
 import { randomUUID } from 'crypto';
+import { getDistanceBetweenCoordinates } from '../../utils/get-distance-between-coordinates';
 
 export class InMemoryOrgsRepository implements OrgsRepository {
    public database: Org[] = [];
@@ -37,5 +38,18 @@ export class InMemoryOrgsRepository implements OrgsRepository {
          return null;
       }
       return org;
+   }
+
+   async findNearby(latitude: number, longitude: number) {
+      return this.database.filter((org) => {
+         const distance = getDistanceBetweenCoordinates(
+            { latitude, longitude },
+            {
+               latitude: org.latitude.toNumber(),
+               longitude: org.longitude.toNumber(),
+            },
+         );
+         return distance < 10;
+      });
    }
 }
